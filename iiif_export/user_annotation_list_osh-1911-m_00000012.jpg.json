@@ -1,0 +1,48 @@
+[
+    {
+        "@type": "oa:Annotation",
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "annotatedBy": {
+            "name": "Sara Palmer"
+        },
+        "motivation": "sc:painting",
+        "@id": "096a6aa2-70d2-4ec2-bcbe-b2dce31878eb",
+        "on": {
+            "@type": "oa:SpecificResource",
+            "full": "https://readux.ecdsdev.org/iiif/v2/osh-1911-m/canvas/osh-1911-m_00000012.jpg",
+            "selector": {
+                "@type": "oa:FragmentSelector",
+                "item": {
+                    "startSelector": {
+                        "@type": "XPathSelector",
+                        "refinedBy": {
+                            "@type": "TextPositionSelector",
+                            "start": 0
+                        },
+                        "value": "//*[@id='d9a67735-9fbd-4fa9-8d24-5ff09ab4300b']"
+                    },
+                    "@type": "RangeSelector",
+                    "endSelector": {
+                        "@type": "XPathSelector",
+                        "refinedBy": {
+                            "end": 5,
+                            "@type": "TextPositionSelector"
+                        },
+                        "value": "//*[@id='c0461b59-d2a7-4872-ab44-2aa3cf5ea9b1']"
+                    }
+                },
+                "value": "xywh=366,251,252,26"
+            },
+            "within": {
+                "@type": "sc:Manifest",
+                "@id": "https://readux.ecdsdev.org/iiif/v2/osh-1911-m/manifest"
+            }
+        },
+        "resource": {
+            "@type": "dctypes:Text",
+            "language": "en",
+            "format": "text/html",
+            "chars": "<p>OSH 1911 note on rudiments</p>"
+        }
+    }
+]

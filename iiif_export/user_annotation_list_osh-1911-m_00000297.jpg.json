@@ -1,0 +1,48 @@
+[
+    {
+        "@type": "oa:Annotation",
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "annotatedBy": {
+            "name": "Sara Palmer"
+        },
+        "motivation": "sc:painting",
+        "@id": "befd3270-1b70-40ac-a1da-6da2a819983c",
+        "on": {
+            "@type": "oa:SpecificResource",
+            "full": "https://readux.ecdsdev.org/iiif/v2/osh-1911-m/canvas/osh-1911-m_00000297.jpg",
+            "selector": {
+                "@type": "oa:FragmentSelector",
+                "item": {
+                    "startSelector": {
+                        "@type": "XPathSelector",
+                        "refinedBy": {
+                            "@type": "TextPositionSelector",
+                            "start": 0
+                        },
+                        "value": "//*[@id='e7258686-43c2-4719-8cb6-dd45d2fa5ec2']"
+                    },
+                    "@type": "RangeSelector",
+                    "endSelector": {
+                        "@type": "XPathSelector",
+                        "refinedBy": {
+                            "end": 2,
+                            "@type": "TextPositionSelector"
+                        },
+                        "value": "//*[@id='2773f11f-f42a-4362-a69a-b99bcc182621']"
+                    }
+                },
+                "value": "xywh=883,213,288,31"
+            },
+            "within": {
+                "@type": "sc:Manifest",
+                "@id": "https://readux.ecdsdev.org/iiif/v2/osh-1911-m/manifest"
+            }
+        },
+        "resource": {
+            "@type": "dctypes:Text",
+            "language": "en",
+            "format": "text/html",
+            "chars": "<p>title annotation</p>"
+        }
+    }
+]
